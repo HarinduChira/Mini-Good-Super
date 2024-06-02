@@ -40,25 +40,24 @@ Supermarket Management System for Mini Good Super. By automating various process
 - The user will find it easy in this automated system rather than using the manual writing system.
 - Ability to request to extend the borrowed time for one week.
 
-
-## Demo
-
-Insert gif or link to demo
-
-
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/HarinduChira/Mini-Good-Super/assets/95718494/6b5ea038-ff4b-4d70-a900-4b95f5fdc680)
+
+![image](https://github.com/HarinduChira/Mini-Good-Super/assets/95718494/e904b5fd-48a3-49f8-bc45-459ee953bca9)
+
+![image](https://github.com/HarinduChira/Mini-Good-Super/assets/95718494/b8f0a944-8211-4d44-8508-2dcd2325e61b)
+
+![image](https://github.com/HarinduChira/Mini-Good-Super/assets/95718494/9043af9c-6d6c-4b88-8749-fa9f5cdde42f)
 
 
 ## Documentation
 
-[Documentation](https://github.com/HarinduChira/Mini-Good-Super/blob/f42118d12cd1641eb90123fff0233bdc4312137f/Additional%20Data/ProjectReport.pdf)
+[Project Report](https://github.com/HarinduChira/Mini-Good-Super/blob/f42118d12cd1641eb90123fff0233bdc4312137f/Additional%20Data/ProjectReport.pdf)
 
 
 ## 🚀 About the project
 This is an simple project done in my university.
-
 
 ## Project Modifications
 
@@ -73,9 +72,6 @@ This is an simple project done in my university.
 
 For support, email harinduchira@gmail.com
 
-
 ## Feedback
 
 If you have any feedback, please reach out to us at harinduchira@gmail.com
-
-
