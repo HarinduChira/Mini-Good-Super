@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SuperMarket.Cashier">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAACAAAhCAAABAAAACACAACAAAAABAAAAAAAQMAAAA=</HashCode>
+      <FileName>Cashier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.CusDataList" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAwAAAAJABAAAQAAAIAgCQBkAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.CusList" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAAACgAAACEAACAiJgCAAgAAABBCAAIAQkIQAA=</HashCode>
+      <FileName>CusList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.CusReg" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAgAAABCCAABAQAACAAIQCAAAEgADgASAAAREAAQY=</HashCode>
+      <FileName>CusReg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.DiscountList" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgQAAAAwAAAAJABBAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.DisList" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEBAAAAACgEAACAAACAiZACAAgAAABAGAAIAQEIAAA=</HashCode>
+      <FileName>DisList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.DisReg" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MQAAgAAABSAAABAQIICAAJACAAAAgABiASARAUEAAQc=</HashCode>
+      <FileName>DisReg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.EmpList" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASABAAABACkAAACAAACAiJACAAgEAABBCACIAQkIQAA=</HashCode>
+      <FileName>EmpList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.EmpList1" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAwAEAAJABAAAQAAACAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.EmpReg" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAQgAAABCCgABAwAACAAJACgAIEgIDgASAAAREAAQY=</HashCode>
+      <FileName>EmpReg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.HR" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAghCAAABAAABCAABgCAAAAAAAAAAAAIQEAAAA=</HashCode>
+      <FileName>HR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.Login" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAQABAQBCAEABAMAACAABACCAAACAAAAAAAESFAABA=</HashCode>
+      <FileName>Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.Main" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAQACAAABAAAAiAAAACAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.Manager" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAQAAAhCAAABAgAJCAABgCAAAABAAAAAEAAQEAAJA=</HashCode>
+      <FileName>Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.POS" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAIAAAAymAMBCCABCAiJAKSAggAIpkDCoIAy8oQgg=</HashCode>
+      <FileName>POS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.Program" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.ProList" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAIAAACkBAACAAACAiJAKAAgAAABACAAIAQEIAAA=</HashCode>
+      <FileName>ProList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.ProList1" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAwAAAAJABAAAQAAAAAgCQBgAAAAAAAEABBg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.ProReg" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQABgABABCAAABAQABCAAIACAAAAgABgASAACSEQAQY=</HashCode>
+      <FileName>ProReg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.Report" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABEAAgCAABBAAAACACJAGAAAAAABEAiAEAQEQAYA=</HashCode>
+      <FileName>Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.Sales" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IUAAAQAAhCAAABAAAACAABACAAAAAAAAAACAAQUBAAA=</HashCode>
+      <FileName>Sales.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.ShopingDataList" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAwAAAAJABAAAQAAAAggCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.SignUp" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAAQACCEABAEAAqCAIACAAAAAABgAAAAAQEAAAA=</HashCode>
+      <FileName>SignUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.StockList" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAAACgAAACAAACAiJAKAAgAAABACAAICQEIAAA=</HashCode>
+      <FileName>StockList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.StockList1" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABwAAAgJABAAAQAAAAAgCQBgAAAAAAQEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.Store" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgABABCAAABAQAACAAIAiAAAAgIBgASAACSEAAQY=</HashCode>
+      <FileName>Store.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.StoreKeeper" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAjCBABBAAAACAEBACACQAAAAAAAIAAQEAAgA=</HashCode>
+      <FileName>StoreKeeper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAgAAAADEAAAAQABJAAQAAAAAAAQAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.Properties.Settings">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DiscountList" targetNamespace="http://tempuri.org/DiscountList.xsd" xmlns:mstns="http://tempuri.org/DiscountList.xsd" xmlns="http://tempuri.org/DiscountList.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DiscountList" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DiscountList" msprop:Generator_DataSetName="DiscountList">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DiscountDetails" msprop:Generator_RowEvHandlerName="DiscountDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="DiscountDetailsRowDeleted" msprop:Generator_RowDeletingName="DiscountDetailsRowDeleting" msprop:Generator_RowEvArgName="DiscountDetailsRowChangeEvent" msprop:Generator_TablePropName="DiscountDetails" msprop:Generator_RowChangedName="DiscountDetailsRowChanged" msprop:Generator_RowChangingName="DiscountDetailsRowChanging" msprop:Generator_TableClassName="DiscountDetailsDataTable" msprop:Generator_RowClassName="DiscountDetailsRow" msprop:Generator_TableVarName="tableDiscountDetails" msprop:Generator_UserTableName="DiscountDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DiscountID" msprop:Generator_ColumnPropNameInRow="DiscountID" msprop:Generator_ColumnPropNameInTable="DiscountIDColumn" msprop:Generator_ColumnVarNameInTable="columnDiscountID" msprop:Generator_UserColumnName="DiscountID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Percentage" msprop:Generator_ColumnPropNameInRow="Percentage" msprop:Generator_ColumnPropNameInTable="PercentageColumn" msprop:Generator_ColumnVarNameInTable="columnPercentage" msprop:Generator_UserColumnName="Percentage" type="xs:double" minOccurs="0" />
+              <xs:element name="MinTotTrans" msprop:Generator_ColumnPropNameInRow="MinTotTrans" msprop:Generator_ColumnPropNameInTable="MinTotTransColumn" msprop:Generator_ColumnVarNameInTable="columnMinTotTrans" msprop:Generator_UserColumnName="MinTotTrans" type="xs:int" minOccurs="0" />
+              <xs:element name="MaxTotTrans" msprop:Generator_ColumnPropNameInRow="MaxTotTrans" msprop:Generator_ColumnPropNameInTable="MaxTotTransColumn" msprop:Generator_ColumnVarNameInTable="columnMaxTotTrans" msprop:Generator_UserColumnName="MaxTotTrans" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DiscountDetails" />
+      <xs:field xpath="mstns:DiscountID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
