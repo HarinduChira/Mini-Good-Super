@@ -1,0 +1,41 @@
+Title Product Registration Sequence Diagram
+
+actor StoreKeeper
+participant ProReg Form
+database Database
+
+StoreKeeper -> ProReg Form: Interacts with the Product Registration form
+StoreKeeper -> ProReg Form: Enters product details (Product ID, Product Name, Price)
+StoreKeeper -> ProReg Form: Clicks on the "Add" button
+ProReg Form -> Database: Establishes a database connection
+ProReg Form -> Database: Executes a SQL query to insert product details
+Database --> ProReg Form: Confirms product insertion
+ProReg Form -> StoreKeeper: Displays a "Product Details Added" message
+StoreKeeper -> ProReg Form: Repeats the product addition process
+StoreKeeper -> ProReg Form: Clicks on the "Search" button
+ProReg Form -> Database: Executes a SQL query to search for product details
+Database --> ProReg Form: Returns product details (if found)
+ProReg Form -> StoreKeeper: Displays product details (if found)
+StoreKeeper -> ProReg Form: Clicks on the "Edit" button
+ProReg Form -> ProReg Form: Enables product details editing
+StoreKeeper -> ProReg Form: Modifies product details (Product Name, Price)
+StoreKeeper -> ProReg Form: Clicks on the "Update" button
+ProReg Form -> Database: Executes a SQL query to update product details
+Database --> ProReg Form: Confirms product details update
+ProReg Form -> StoreKeeper: Displays an "Updated Successfully" message
+StoreKeeper -> ProReg Form: Clicks on the "Delete" button
+ProReg Form -> Database: Executes a SQL query to delete product details
+Database --> ProReg Form: Confirms product details deletion
+ProReg Form -> StoreKeeper: Displays a "Product Details Removed" message
+
+
+
+
+
+
+
+
+
+
+
+

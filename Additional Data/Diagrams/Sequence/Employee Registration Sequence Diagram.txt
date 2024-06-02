@@ -1,0 +1,48 @@
+Title Point of Sale (POS) Sequence Diagram
+
+actor Cashier
+participant POS Form
+database Database
+
+Cashier -> POS Form: Interacts with the Point of Sale (POS) form
+Cashier -> POS Form: Enters customer NIC and date
+Cashier -> POS Form: Clicks on the "Check" button
+POS Form -> Database: Establishes a database connection
+POS Form -> Database: Executes a SQL query to check customer details
+Database --> POS Form: Returns customer details (if found)
+POS Form -> Cashier: Displays a "Customer Verified" message
+POS Form -> POS Form: Enables the product selection and transaction area
+POS Form -> POS Form: Clears the shopping cart
+POS Form -> POS Form: Retrieves and displays the list of available products
+Cashier -> POS Form: Selects a product and enters quantity
+Cashier -> POS Form: Clicks on the "Add to Cart" button
+POS Form -> Database: Executes a SQL query to fetch product details
+Database --> POS Form: Returns product details
+POS Form -> Database: Executes a SQL query to update stock quantity
+Database --> POS Form: Confirms stock update
+POS Form -> POS Form: Calculates total price and adds the item to the shopping cart
+POS Form -> Cashier: Displays an "Added to the Cart" message
+Cashier -> POS Form: Repeats the product selection and addition process
+Cashier -> POS Form: Clicks on the "Total Bill" button
+POS Form -> Database: Executes a SQL query to calculate the total bill
+Database --> POS Form: Returns the total bill amount
+POS Form -> Cashier: Displays the total bill amount
+Cashier -> POS Form: Clicks on the "Clear Bill" button
+POS Form -> Database: Executes a SQL query to reverse cart items and update stock
+Database --> POS Form: Confirms cart reversal and stock update
+POS Form -> POS Form: Clears the shopping cart
+POS Form -> POS Form: Disables product selection and transaction area
+POS Form -> Cashier: Completes the transaction
+
+
+
+
+
+
+
+
+
+
+
+
+

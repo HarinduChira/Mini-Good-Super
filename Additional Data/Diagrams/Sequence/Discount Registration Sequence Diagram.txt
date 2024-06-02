@@ -1,0 +1,47 @@
+Title Employee Registration Sequence Diagram
+
+actor HR
+participant Employee Registration Form
+database Database
+
+HR -> Employee Registration Form: Interacts with the Employee Registration form
+HR -> Employee Registration Form: Enters NIC, name, contact number, address, email, role, and salary
+HR -> Employee Registration Form: Clicks on the "Add" button
+Employee Registration Form -> Database: Establishes a database connection
+Employee Registration Form -> Database: Executes a SQL insert query to add employee details
+Database --> Employee Registration Form: Confirms successful insertion
+Employee Registration Form -> HR: Displays an "Employee Details Added" message
+Employee Registration Form -> Employee Registration Form: Clears input fields
+HR -> Employee Registration Form: Clicks on the "Search" button
+Employee Registration Form -> Database: Executes a SQL query to search for employee details
+Database --> Employee Registration Form: Returns employee details (if found)
+Employee Registration Form -> HR: Displays employee details (NIC, name, contact, address, email, role, salary)
+Employee Registration Form -> Employee Registration Form: Disables name, contact, address, email, salary, and role fields
+Employee Registration Form -> Employee Registration Form: Shows "Edit" and "Delete" buttons
+HR -> Employee Registration Form: Clicks on the "Edit" button
+Employee Registration Form -> Employee Registration Form: Enables name, contact, address, email, salary, and role fields
+Employee Registration Form -> Employee Registration Form: Shows "Update" button and hides "Delete" button
+HR -> Employee Registration Form: Makes changes and clicks on the "Update" button
+Employee Registration Form -> Database: Executes a SQL update query to update employee details
+Database --> Employee Registration Form: Confirms successful update
+Employee Registration Form -> HR: Displays an "Updated Successfully" message
+Employee Registration Form -> Employee Registration Form: Clears input fields
+HR -> Employee Registration Form: Clicks on the "Delete" button
+Employee Registration Form -> Database: Executes a SQL delete query to remove employee details
+Database --> Employee Registration Form: Confirms removal of employee details
+Employee Registration Form -> Employee Registration Form: Clears input fields
+Employee Registration Form -> Employee Registration Form: Enables name, contact, address, email, salary, and role fields
+Employee Registration Form -> Employee Registration Form: Hides "Edit" and "Delete" buttons
+Employee Registration Form -> HR: Displays an "Employee Details Removed" message
+
+
+
+
+
+
+
+
+
+
+
+

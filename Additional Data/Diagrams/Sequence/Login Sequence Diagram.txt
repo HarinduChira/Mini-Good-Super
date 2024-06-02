@@ -1,0 +1,28 @@
+Title SignUp Sequence Diagram
+
+actor User
+participant SignUp Form
+database Database
+
+User -> SignUp Form: Interacts with the SignUp form
+User -> SignUp Form: Enters NIC, username, password, and confirms password
+User -> SignUp Form: Clicks on the "Sign Up" button
+SignUp Form -> Database: Establishes a database connection
+SignUp Form -> Database: Executes a SQL query to check if NIC exists
+Database --> SignUp Form: Returns NIC information (if found)
+SignUp Form -> SignUp Form: Compares entered password with the confirmed password
+SignUp Form -> Database: If NIC exists, inserts new user data into UserStore
+Database --> SignUp Form: Confirms successful insertion
+SignUp Form -> SignUp Form: Clears input fields
+SignUp Form -> User: Displays a "Signed Successfully" message if successful
+
+alt Invalid Data
+SignUp Form -> User: Displays an "Entered NIC is not Available" message if NIC does not exist
+SignUp Form -> User: Displays a "Password Mismatch" message if passwords don't match
+end
+
+
+
+
+
+

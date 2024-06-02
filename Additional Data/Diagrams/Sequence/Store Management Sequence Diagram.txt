@@ -1,0 +1,45 @@
+Title Store Management Sequence Diagram
+
+actor StoreKeeper
+participant Store Form
+database Database
+
+StoreKeeper -> Store Form: Interacts with the Store Management form
+StoreKeeper -> Store Form: Enters product details (Product ID, Quantity)
+StoreKeeper -> Store Form: Clicks on the "Add" button
+Store Form -> Database: Establishes a database connection
+Store Form -> Database: Executes a SQL query to check product availability
+Database --> Store Form: Confirms product availability
+Store Form -> StoreKeeper: Displays product availability (if found)
+Store Form -> Database: Executes a SQL query to insert product quantity
+Database --> Store Form: Confirms product quantity addition
+Store Form -> StoreKeeper: Displays a "Product Quantity Added" message
+StoreKeeper -> Store Form: Repeats the product addition process
+StoreKeeper -> Store Form: Clicks on the "Search" button
+Store Form -> Database: Executes a SQL query to search for product details
+Database --> Store Form: Returns product details (if found)
+Store Form -> StoreKeeper: Displays product details (if found)
+StoreKeeper -> Store Form: Clicks on the "Edit" button
+Store Form -> Store Form: Enables product quantity editing
+StoreKeeper -> Store Form: Modifies product quantity
+StoreKeeper -> Store Form: Clicks on the "Update" button
+Store Form -> Database: Executes a SQL query to update product quantity
+Database --> Store Form: Confirms product quantity update
+Store Form -> StoreKeeper: Displays an "Updated Successfully" message
+StoreKeeper -> Store Form: Clicks on the "Delete" button
+Store Form -> Database: Executes a SQL query to delete product details
+Database --> Store Form: Confirms product details deletion
+Store Form -> StoreKeeper: Displays a "Product Details Removed" message
+
+
+
+
+
+
+
+
+
+
+
+
+

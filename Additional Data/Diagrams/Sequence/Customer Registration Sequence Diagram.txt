@@ -1,0 +1,41 @@
+Title Customer Registration Sequence Diagram
+
+actor Cashier
+participant Customer Registration Form
+database Database
+
+Cashier -> Customer Registration Form: Interacts with the Customer Registration form
+Cashier -> Customer Registration Form: Enters NIC, name, and contact number
+Cashier -> Customer Registration Form: Clicks on the "Add" button
+Customer Registration Form -> Database: Establishes a database connection
+Customer Registration Form -> Database: Executes a SQL insert query to add customer data
+Database --> Customer Registration Form: Confirms successful insertion
+Customer Registration Form -> Cashier: Displays a "Customer Added Successfully" message
+Customer Registration Form -> Customer Registration Form: Clears input fields
+Cashier -> Customer Registration Form: Clicks on the "Search" button
+Customer Registration Form -> Database: Executes a SQL query to search for customer data
+Database --> Customer Registration Form: Returns customer data (if found)
+Customer Registration Form -> Cashier: Displays customer details (NIC, name, contact)
+Customer Registration Form -> Customer Registration Form: Disables NIC, name, and contact fields
+Customer Registration Form -> Customer Registration Form: Shows "Edit" and "Delete" buttons
+Cashier -> Customer Registration Form: Clicks on the "Edit" button
+Customer Registration Form -> Customer Registration Form: Enables NIC, name, and contact fields
+Customer Registration Form -> Customer Registration Form: Shows "Update" button and hides "Delete" button
+Cashier -> Customer Registration Form: Makes changes and clicks on the "Update" button
+Customer Registration Form -> Database: Executes a SQL update query to update customer data
+Database --> Customer Registration Form: Confirms successful update
+Customer Registration Form -> Cashier: Displays an "Updated Successfully" message
+Customer Registration Form -> Customer Registration Form: Clears input fields
+Cashier -> Customer Registration Form: Clicks on the "Delete" button
+Customer Registration Form -> Database: Executes a SQL delete query to remove customer data
+Database --> Customer Registration Form: Confirms removal of customer data
+Customer Registration Form -> Cashier: Displays a "Customer Details Removed" message
+Customer Registration Form -> Customer Registration Form: Clears input fields
+Customer Registration Form -> Customer Registration Form: Enables NIC, name, and contact fields
+Customer Registration Form -> Customer Registration Form: Hides "Edit" and "Delete" buttons
+
+
+
+
+
+
