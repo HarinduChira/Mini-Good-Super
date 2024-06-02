@@ -53,7 +53,7 @@ Insert gif or link to demo
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
+[Documentation](https://github.com/HarinduChira/Mini-Good-Super/blob/f42118d12cd1641eb90123fff0233bdc4312137f/Additional%20Data/ProjectReport.pdf)
 
 
 ## 🚀 About the project
